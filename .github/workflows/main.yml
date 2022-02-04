@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g mongodb-realm-cli
-      - run: REACT_APP_REALM_APP_ID= "domain-monitor-updar" npm run build
+      - run: npm run build
       - run: realm-cli push \ 
             --include-package-json \ --include 
             -hosting \ 
