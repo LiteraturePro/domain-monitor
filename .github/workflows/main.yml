@@ -27,7 +27,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '8'
+          node-version: '16'
       - run: npm install 
       - run: npm install -g mongodb-realm-cli
       - run: npm run build
