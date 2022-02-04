@@ -5,7 +5,7 @@ import App from "./App"
 import { BrowserRouter } from "react-router-dom"
 import { RealmProvider } from "./contexts/Realm"
 
-const appId = process.env.REACT_APP_REALM_APP_ID
+const appId = "domain-monitor-updar"
 
 if (typeof appId !== "undefined") {
   ReactDOM.render(
